@@ -130,7 +130,7 @@ html {
   margin-top: 3.6rem;
   max-width: 10.05rem;
   height: 22.6rem;
-  background-image: url(/assets/mobile/image-phone-and-keyboard.jpg);
+  background-image: url(assets/mobile/image-phone-and-keyboard.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: multiply;
@@ -144,7 +144,7 @@ html {
   margin-left: 14.3rem;
   max-width: 21.09rem;
   height: 22.6rem;
-  background-image: url(/assets/mobile/image-glass-and-keyboard.jpg);
+  background-image: url(assets/mobile/image-glass-and-keyboard.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top 1 right -2.6rem;
@@ -334,7 +334,7 @@ html {
     max-width: 21.4rem;
     height: 32rem;
     background-color: #162542;
-    background-image: url(/assets/tablet/image-phone-and-keyboard.jpg);
+    background-image: url(assets/tablet/image-phone-and-keyboard.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: multiply;
@@ -351,7 +351,7 @@ html {
     margin-left: 28.3rem;
     max-width: 44.5rem;
     height: 32rem;
-    background-image: url(/assets/tablet/image-glass-and-keyboard.jpg);
+    background-image: url(assets/tablet/image-glass-and-keyboard.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: multiply;
@@ -530,323 +530,6 @@ html {
     padding-left: 24.7rem;
     padding-right: 5.2rem;
     padding-bottom: 5.6rem;
-    text-align: center;
-  }
-
-  .footer span {
-    font-size: 1.6rem;
-    font-weight: 700;
-    color: #7b8bad;
-  }
-
-  .footer h3 {
-    font-size: 1.6rem;
-    font-weight: 500;
-    color: #7b8bad;
-  }
-
-  .square {
-    display: none;
-  }
-}
-
-@media (min-width: 1440px) {
-  /* Mobile Dimensions */
-
-  .dimensions {
-    max-width: 100%;
-    height: 187rem;
-
-    overflow: hidden;
-  }
-
-  /* Header-Section */
-  .header-section {
-    display: flex;
-    justify-content: space-between;
-    /* padding-top: 2.3rem; */
-    padding-left: 16.5rem;
-    padding-right: 16.5rem;
-  }
-
-  .header-btn {
-    margin-top: 4rem;
-    border: none;
-    border-radius: 0.8rem;
-    background-color: #e8eff2;
-  }
-
-  .header-btn:hover {
-    background-color: #162542;
-  }
-
-  .logo {
-    padding-top: 4.9rem;
-    max-width: 4rem;
-    height: 4rem;
-  }
-
-  .header-a {
-    display: block;
-    padding-top: 1.6rem;
-    padding-left: 2.6rem;
-    padding-right: 2.7rem;
-    padding-bottom: 1.6rem;
-    font-size: 1.6rem;
-    font-weight: 700;
-    text-decoration: none;
-    line-height: 2.6rem;
-    color: #162542;
-  }
-  .header-a:hover {
-    display: block;
-    padding-top: 1.6rem;
-    padding-left: 2.6rem;
-    padding-right: 2.7rem;
-    padding-bottom: 1.6rem;
-    font-size: 1.6rem;
-    font-weight: 700;
-    text-decoration: none;
-    line-height: 2.6rem;
-    color: #fff;
-  }
-
-  /* Content Section FIXME */
-
-  .content-section {
-    max-width: 100%;
-    height: 28.6rem;
-    padding-top: 13.1rem;
-    padding-left: 16.5rem;
-    padding-right: 2.4rem;
-  }
-
-  .tablet-keyboard {
-    display: none;
-  }
-  .desktop-keyboard {
-    border-radius: 2rem;
-    position: relative;
-    margin-left: 58rem;
-    margin-top: -35rem;
-    display: block;
-  }
-
-  .square {
-    display: block;
-    position: relative;
-    height: 24rem;
-    margin-top: -35rem;
-    margin-left: 132rem;
-    background-image: url(/assets/shared/pattern-square.svg);
-    background-repeat: no-repeat;
-  }
-
-  .square2 {
-    position: relative;
-    height: 24rem;
-    background-image: url(/assets/shared/pattern-square.svg);
-    background-repeat: no-repeat;
-    margin-top: -31.3rem;
-    margin-left: -25rem;
-  }
-
-  .keyboard-1 {
-    display: none;
-  }
-  .keyboard-2 {
-    display: none;
-  }
-
-  .tablet-cont {
-    margin-top: 10rem;
-    max-width: 100%;
-    margin-top: 18.1rem;
-    margin-left: 12.7rem;
-  }
-
-  .tablet {
-    position: relative;
-    max-width: 25.5rem;
-    height: 48rem;
-    background-color: #162542;
-    background-image: url(/assets/tablet/image-phone-and-keyboard.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: multiply;
-    border-radius: 2rem;
-    background-repeat: no-repeat;
-
-    background-color: var(--keyboardbg);
-  }
-
-  .tablet2 {
-    margin-top: -55rem;
-    height: 48rem;
-    margin-left: 33rem;
-    position: relative;
-    background-image: url(/assets/desktop/image-glass-and-keyboard.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-blend-mode: multiply;
-    border-radius: 2rem;
-    background-repeat: no-repeat;
-  }
-
-  .content-section h1 {
-    max-width: 33.9rem;
-    height: 9.6rem;
-    font-size: 4.8rem;
-    font-weight: 900;
-    line-height: 4.8rem;
-    text-transform: uppercase;
-  }
-  .content-section p {
-    max-width: 33.9rem;
-    height: 7.8rem;
-    padding-top: 3.2rem;
-    font-size: 1.6rem;
-    font-weight: 500;
-    line-height: 2.6rem;
-    color: #7b8bad;
-  }
-
-  .btn-div {
-    display: flex;
-    justify-content: flex-start;
-  }
-
-  .content-btn {
-    margin-top: 3.2rem;
-    border: none;
-    border-radius: 0.8rem;
-    background-color: #f16718;
-  }
-
-  .content-a {
-    display: block;
-    padding-top: 1.1rem;
-    padding-left: 1.35rem;
-    padding-right: 1.35rem;
-    padding-bottom: 1.1rem;
-    font-size: 1.6rem;
-    font-weight: 700;
-    text-decoration: none;
-    line-height: 2.6rem;
-    color: #ffff;
-  }
-
-  .content-release {
-    padding-top: 2.9rem;
-    position: relative;
-    display: inline-block;
-    padding-left: 3.2rem;
-    font-size: 1.6rem;
-    font-weight: 700;
-    color: #7b8bad;
-  }
-
-  /* Section Gallery */
-
-  .gallery {
-    max-width: 100%;
-    height: 100vh;
-    /* display: none; */
-  }
-
-  .keyboard-img {
-    display: none;
-    position: relative;
-    border-radius: 2rem;
-    max-width: 45.2rem;
-    height: 33.1rem;
-  }
-
-  /* Keyboard Info  */
-
-  .p-container {
-    position: relative;
-    max-width: 25.5rem;
-    margin-left: 100rem;
-    top: -95rem;
-    display: flex;
-    flex-direction: column;
-  }
-  .p-container h1 {
-    padding: 0;
-    max-width: 25.5rem;
-    font-size: 3.2rem;
-    font-weight: 900;
-    line-height: 3.6rem;
-    text-align: start;
-    text-transform: uppercase;
-  }
-  .p-container p {
-    text-align: unset;
-    max-width: 30rem;
-    font-size: 1.6rem;
-    font-weight: 500;
-    line-height: 2.6rem;
-    color: #7b8bad;
-  }
-
-  /* Info Section */
-
-  .info-section {
-    padding-top: 0;
-    max-width: 85%;
-    margin-top: -20rem;
-    padding-left: 13.5rem;
-    padding-right: 16.5rem;
-    height: 65rem;
-    display: flex;
-    gap: 0.5rem;
-  }
-
-  .icon-container1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 6.5rem;
-    height: 6.5rem;
-    background-color: #f16718;
-    border-radius: 1.6rem;
-    margin-top: 3.2rem;
-  }
-
-  .container1 h1,
-  .container2 h1,
-  .container3 h1,
-  .container4 h1 {
-    padding-top: 4.8rem;
-    max-width: 25.5rem;
-    font-size: 2.4rem;
-    font-weight: 900;
-    line-height: 2.8rem;
-    text-align: start;
-  }
-  .container1 p,
-  .container2 p,
-  .container3 p,
-  .container4 p {
-    padding-top: 2.4rem;
-    max-width: 25.5rem;
-    font-size: 1.6rem;
-    font-weight: 500;
-    line-height: 2.6rem;
-    text-align: start;
-
-    color: #7b8bad;
-  }
-
-  .footer {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -22rem;
-    padding: 0;
-    max-width: 27.2rem;
-    height: 2.6rem;
-
     text-align: center;
   }
 
