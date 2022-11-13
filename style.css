@@ -1,0 +1,539 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Barlow", sans-serif;
+}
+
+:root {
+  --keyboardbg: #f16718;
+}
+
+/* Mobile Dimensions */
+.dimensions {
+  max-width: 37.5rem;
+  height: 300.07rem;
+}
+
+/* Header-Section */
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2.3rem;
+  padding-left: 2.4rem;
+  padding-right: 2.4rem;
+}
+
+.header-btn {
+  border: none;
+  border-radius: 0.8rem;
+  background-color: #e8eff2;
+}
+
+.logo {
+  max-width: 4rem;
+  height: 4rem;
+}
+
+.header-a {
+  display: block;
+  padding-top: 1.1rem;
+  padding-left: 1.35rem;
+  padding-right: 1.35rem;
+  padding-bottom: 1.1rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-decoration: none;
+  line-height: 2.6rem;
+  color: #162542;
+}
+
+/* Content Section FIXME */
+
+.content-section {
+  max-width: 32.7rem;
+  height: 28.6rem;
+  padding-top: 6.4rem;
+  padding-left: 2.4rem;
+  padding-right: 2.4rem;
+}
+.content-section h1 {
+  font-size: 4.8rem;
+  font-weight: 900;
+  line-height: 4.8rem;
+  text-transform: uppercase;
+}
+.content-section p {
+  padding-top: 3.2rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2.6rem;
+  color: #7b8bad;
+}
+
+.btn-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-btn {
+  margin-top: 3.2rem;
+  border: none;
+  border-radius: 0.8rem;
+  background-color: #f16718;
+}
+
+.content-a {
+  display: block;
+  padding-top: 1.1rem;
+  padding-left: 1.35rem;
+  padding-right: 1.35rem;
+  padding-bottom: 1.1rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-decoration: none;
+  line-height: 2.6rem;
+  color: #ffff;
+}
+
+.content-release {
+  padding-top: 2.9rem;
+  position: relative;
+  display: inline-block;
+  padding-left: 3.2rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #7b8bad;
+}
+
+/* Section Gallery */
+
+.gallery {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.keyboard-img {
+  margin-top: 6.4rem;
+  margin-left: 2.4rem;
+  border-radius: 2rem;
+  max-width: 45.2rem;
+  height: 33.1rem;
+  overflow: hidden;
+}
+
+.keyboard-1 {
+  margin-top: 3.6rem;
+  max-width: 10.05rem;
+  height: 22.6rem;
+  background-image: url(/assets/mobile/image-phone-and-keyboard.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  background-color: var(--keyboardbg);
+}
+.keyboard-2 {
+  position: relative;
+  margin-top: -22.6rem;
+  margin-left: 14.3rem;
+  max-width: 21.09rem;
+  height: 22.6rem;
+  background-image: url(/assets/mobile/image-glass-and-keyboard.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top 1 right -2.6rem;
+  background-blend-mode: multiply;
+  border-radius: 2rem;
+}
+
+/* Keyboard Info  */
+
+.p-container {
+  padding-top: 5rem;
+}
+.p-container h1 {
+  max-width: 25.5rem;
+  font-size: 3.2rem;
+  font-weight: 900;
+  line-height: 3.6rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+.p-container p {
+  margin-top: 2.4rem;
+  max-width: 32.5rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2.6rem;
+  padding-left: 2.4rem;
+  padding-right: 2.4rem;
+  text-align: center;
+  color: #7b8bad;
+}
+
+/* Info Section */
+
+.icon-container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 6.5rem;
+  height: 6.5rem;
+  background-color: #f16718;
+  border-radius: 1.6rem;
+  margin-top: 11.1rem;
+  margin-left: 15.5rem;
+}
+
+.container1 h1,
+.container2 h1,
+.container3 h1,
+.container4 h1 {
+  padding-top: 4.8rem;
+  padding-left: 2.4rem;
+  max-width: 32.7rem;
+  font-size: 2.4rem;
+  font-weight: 900;
+  line-height: 2.8rem;
+  text-align: center;
+}
+.container1 p,
+.container2 p,
+.container3 p,
+.container4 p {
+  padding-top: 2.4rem;
+  padding-left: 2.4rem;
+  max-width: 32.7rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2.6rem;
+  text-align: center;
+  color: #7b8bad;
+}
+
+.footer {
+  max-width: 27.2rem;
+  padding-top: 9.6rem;
+  padding-left: 5.1rem;
+  padding-right: 5.2rem;
+  padding-bottom: 5.6rem;
+  text-align: center;
+}
+
+.footer span {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #7b8bad;
+}
+
+.footer h3 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #7b8bad;
+}
+
+.tablet-keyboard {
+  display: none;
+}
+
+.tablet-keyboard1 {
+  display: none;
+}
+.tablet-keyboard2 {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  /* Mobile Dimensions */
+  .dimensions {
+    max-width: 100%;
+    height: 220.8rem;
+    overflow: hidden;
+  }
+
+  /* Header-Section */
+  .header-section {
+    display: flex;
+    justify-content: space-between;
+    /* padding-top: 2.3rem; */
+    padding-left: 4.4rem;
+    padding-right: 4rem;
+  }
+
+  .header-btn {
+    margin-top: 4rem;
+    border: none;
+    border-radius: 0.8rem;
+    background-color: #e8eff2;
+  }
+
+  .logo {
+    padding-top: 4.9rem;
+    max-width: 4rem;
+    height: 4rem;
+  }
+
+  .header-a {
+    display: block;
+    padding-top: 1.6rem;
+    padding-left: 2.6rem;
+    padding-right: 2.7rem;
+    padding-bottom: 1.6rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 2.6rem;
+    color: #162542;
+  }
+
+  /* Content Section FIXME */
+
+  .content-section {
+    max-width: 100%;
+    height: 28.6rem;
+    padding-top: 13.1rem;
+    padding-left: 3.9rem;
+    padding-right: 2.4rem;
+  }
+
+  .tablet-keyboard {
+    border-radius: 2rem;
+    position: relative;
+    left: 40rem;
+    margin-top: -35rem;
+    display: block;
+  }
+
+  .keyboard-1 {
+    display: none;
+  }
+  .keyboard-2 {
+    display: none;
+  }
+
+  .tablet {
+    margin-top: 2.4rem;
+    margin-bottom: 7.2rem;
+    margin-left: 3.9rem;
+    max-width: 21.4rem;
+    height: 32rem;
+    background-color: #162542;
+    background-image: url(/assets/tablet/image-phone-and-keyboard.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    border-radius: 2rem;
+    background-repeat: no-repeat;
+
+    background-color: var(--keyboardbg);
+  }
+
+  .tablet2 {
+    position: relative;
+    margin-bottom: 7.2rem;
+    margin-top: -39rem;
+    margin-left: 28.3rem;
+    max-width: 44.5rem;
+    height: 32rem;
+    background-image: url(/assets/tablet/image-glass-and-keyboard.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    border-radius: 2rem;
+    background-repeat: no-repeat;
+  }
+
+  /* margin-top: 3.6rem;
+  max-width: 10.05rem;
+  height: 22.6rem;
+  background-image: url(/assets/mobile/image-phone-and-keyboard.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  background-color: var(--keyboardbg); */
+
+  /* .tablet-keyboard2 {
+    display: inline-block;
+    border-radius: 2rem;
+  } */
+
+  .content-section h1 {
+    max-width: 33.9rem;
+    height: 9.6rem;
+    font-size: 4.8rem;
+    font-weight: 900;
+    line-height: 4.8rem;
+    text-transform: uppercase;
+  }
+  .content-section p {
+    max-width: 33.9rem;
+    height: 7.8rem;
+    padding-top: 3.2rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.6rem;
+    color: #7b8bad;
+  }
+
+  .btn-div {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .content-btn {
+    margin-top: 3.2rem;
+    border: none;
+    border-radius: 0.8rem;
+    background-color: #f16718;
+  }
+
+  .content-a {
+    display: block;
+    padding-top: 1.1rem;
+    padding-left: 1.35rem;
+    padding-right: 1.35rem;
+    padding-bottom: 1.1rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 2.6rem;
+    color: #ffff;
+  }
+
+  .content-release {
+    padding-top: 2.9rem;
+    position: relative;
+    display: inline-block;
+    padding-left: 3.2rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #7b8bad;
+  }
+
+  /* Section Gallery */
+
+  .gallery {
+    padding-top: 10rem;
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  .keyboard-img {
+    display: none;
+    position: relative;
+    border-radius: 2rem;
+    max-width: 45.2rem;
+    height: 33.1rem;
+  }
+
+  /* Keyboard Info  */
+
+  .p-container {
+    max-width: 68.9rem;
+    padding-left: 3.9rem;
+    padding-right: 4rem;
+    display: flex;
+  }
+  .p-container h1 {
+    padding: 0;
+    max-width: 25.5rem;
+    font-size: 3.2rem;
+    font-weight: 900;
+    line-height: 3.6rem;
+    text-align: start;
+    text-transform: uppercase;
+  }
+  .p-container p {
+    padding: 0;
+    /* margin-top: 8.7rem; */
+    max-width: 39.8rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.6rem;
+    text-align: start;
+    color: #7b8bad;
+  }
+
+  /* Info Section */
+
+  .info-section {
+    padding-top: 14.2rem;
+    padding-bottom: 5.2rem;
+    max-width: 63.1rem;
+    height: 65rem;
+    display: grid;
+    column-gap: 6.9rem;
+
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .icon-container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 6.5rem;
+    height: 6.5rem;
+    background-color: #f16718;
+    border-radius: 1.6rem;
+    margin-top: 3.2rem;
+    margin-left: 3.9rem;
+  }
+
+  .container1 h1,
+  .container2 h1,
+  .container3 h1,
+  .container4 h1 {
+    padding-top: 4.8rem;
+    padding-left: 3.9rem;
+    max-width: 25.5rem;
+    font-size: 2.4rem;
+    font-weight: 900;
+    line-height: 2.8rem;
+    text-align: start;
+  }
+  .container1 p,
+  .container2 p,
+  .container3 p,
+  .container4 p {
+    padding-top: 2.4rem;
+    padding-left: 3.9rem;
+    max-width: 28.1rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.6rem;
+    text-align: start;
+
+    color: #7b8bad;
+  }
+
+  .footer {
+    max-width: 27.2rem;
+    height: 2.6rem;
+    padding-left: 24.7rem;
+    padding-right: 5.2rem;
+    padding-bottom: 5.6rem;
+    text-align: center;
+  }
+
+  .footer span {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #7b8bad;
+  }
+
+  .footer h3 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #7b8bad;
+  }
+}
