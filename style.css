@@ -130,7 +130,7 @@ html {
   margin-top: 3.6rem;
   max-width: 10.05rem;
   height: 22.6rem;
-  background-image: url(assets/mobile/image-phone-and-keyboard.jpg);
+  background-image: url(/assets/mobile/image-phone-and-keyboard.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: multiply;
@@ -144,7 +144,7 @@ html {
   margin-left: 14.3rem;
   max-width: 21.09rem;
   height: 22.6rem;
-  background-image: url(assets/mobile/image-glass-and-keyboard.jpg);
+  background-image: url(/assets/mobile/image-glass-and-keyboard.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top 1 right -2.6rem;
@@ -334,7 +334,7 @@ html {
     max-width: 21.4rem;
     height: 32rem;
     background-color: #162542;
-    background-image: url(assets/tablet/image-phone-and-keyboard.jpg);
+    background-image: url(/assets/tablet/image-phone-and-keyboard.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: multiply;
@@ -351,7 +351,7 @@ html {
     margin-left: 28.3rem;
     max-width: 44.5rem;
     height: 32rem;
-    background-image: url(assets/tablet/image-glass-and-keyboard.jpg);
+    background-image: url(/assets/tablet/image-glass-and-keyboard.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: multiply;
@@ -359,7 +359,21 @@ html {
     background-repeat: no-repeat;
   }
 
+  /* margin-top: 3.6rem;
+  max-width: 10.05rem;
+  height: 22.6rem;
+  background-image: url(/assets/mobile/image-phone-and-keyboard.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  background-color: var(--keyboardbg); */
 
+  /* .tablet-keyboard2 {
+    display: inline-block;
+    border-radius: 2rem;
+  } */
 
   .content-section h1 {
     max-width: 33.9rem;
@@ -624,14 +638,14 @@ html {
     height: 24rem;
     margin-top: -35rem;
     margin-left: 132rem;
-    background-image: urlassets/shared/pattern-square.svg);
+    background-image: url(/assets/shared/pattern-square.svg);
     background-repeat: no-repeat;
   }
 
   .square2 {
     position: relative;
-    height: 55rem;
-    background-image: urlassets/shared/pattern-square.svg);
+    height: 24rem;
+    background-image: url(/assets/shared/pattern-square.svg);
     background-repeat: no-repeat;
     margin-top: -31.3rem;
     margin-left: -25rem;
@@ -647,7 +661,6 @@ html {
   .tablet-cont {
     margin-top: 10rem;
     max-width: 100%;
-    height: 100rem;
     margin-top: 18.1rem;
     margin-left: 12.7rem;
   }
@@ -657,7 +670,7 @@ html {
     max-width: 25.5rem;
     height: 48rem;
     background-color: #162542;
-    background-image: url(assets/tablet/image-phone-and-keyboard.jpg);
+    background-image: url(/assets/tablet/image-phone-and-keyboard.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: multiply;
@@ -672,7 +685,7 @@ html {
     height: 48rem;
     margin-left: 33rem;
     position: relative;
-    background-image: url(assets/desktop/image-glass-and-keyboard.jpg);
+    background-image: url(/assets/desktop/image-glass-and-keyboard.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     background-blend-mode: multiply;
@@ -780,6 +793,7 @@ html {
   /* Info Section */
 
   .info-section {
+    padding-top: 0;
     max-width: 85%;
     margin-top: -20rem;
     padding-left: 13.5rem;
