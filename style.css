@@ -359,21 +359,7 @@ html {
     background-repeat: no-repeat;
   }
 
-  /* margin-top: 3.6rem;
-  max-width: 10.05rem;
-  height: 22.6rem;
-  background-image: url(/assets/mobile/image-phone-and-keyboard.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-blend-mode: multiply;
-  border-top-right-radius: 2rem;
-  border-bottom-right-radius: 2rem;
-  background-color: var(--keyboardbg); */
 
-  /* .tablet-keyboard2 {
-    display: inline-block;
-    border-radius: 2rem;
-  } */
 
   .content-section h1 {
     max-width: 33.9rem;
