@@ -676,7 +676,7 @@ html {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-column: 1 / 1;
     max-width: 100% !important;
-    margin-top: 10rem;
+    margin-top: -15rem;
     padding-left: 12.5rem;
   }
 
