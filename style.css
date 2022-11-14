@@ -199,7 +199,7 @@ html {
 .container4 h1 {
   padding-top: 4.8rem;
   padding-left: 2.4rem;
-  max-width: 32.7rem;
+  /* max-width: 32.7rem; */
   font-size: 2.4rem;
   font-weight: 900;
   line-height: 2.8rem;
@@ -211,7 +211,7 @@ html {
 .container4 p {
   padding-top: 2.4rem;
   padding-left: 2.4rem;
-  max-width: 32.7rem;
+  /* max-width: 32.7rem; */
   font-size: 1.6rem;
   font-weight: 500;
   line-height: 2.6rem;
@@ -358,22 +358,6 @@ html {
     border-radius: 2rem;
     background-repeat: no-repeat;
   }
-
-  /* margin-top: 3.6rem;
-  max-width: 10.05rem;
-  height: 22.6rem;
-  background-image: url(/assets/mobile/image-phone-and-keyboard.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-blend-mode: multiply;
-  border-top-right-radius: 2rem;
-  border-bottom-right-radius: 2rem;
-  background-color: var(--keyboardbg); */
-
-  /* .tablet-keyboard2 {
-    display: inline-block;
-    border-radius: 2rem;
-  } */
 
   .content-section h1 {
     max-width: 33.9rem;
@@ -543,5 +527,221 @@ html {
     font-size: 1.6rem;
     font-weight: 500;
     color: #7b8bad;
+  }
+}
+
+@media (min-width: 1440px) {
+  .dimensions {
+    max-width: 100%;
+    height: 187rem;
+  }
+
+  .header-section {
+    padding: 0;
+    margin-top: 5.5rem;
+    margin-left: 16.5rem;
+    margin-right: 16.5rem;
+  }
+
+  .logo {
+    padding: 0;
+    margin-top: 6.4rem;
+  }
+
+  .content-section {
+    max-width: 54rem;
+    height: 48rem;
+    padding: 0;
+    margin-top: 15.2rem;
+    margin-left: 16.5rem;
+  }
+
+  .content-container {
+    max-width: 44.5rem !important;
+    height: 31.2rem;
+  }
+
+  .content-container h1 {
+    max-width: 44.5rem;
+    font-size: 5.6rem;
+    line-height: 5.6rem;
+  }
+  .content-container p {
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+    max-width: 44.5rem;
+  }
+
+  .btn-div {
+    display: flex;
+  }
+
+  .content-a {
+    padding: 0;
+    padding-left: 2.6rem;
+    padding-right: 2.7rem;
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+  }
+
+  .desktop-keyboard {
+    margin-top: -40rem;
+    margin-left: 57.5rem;
+    position: relative;
+    border-radius: 2rem;
+    display: block;
+  }
+
+  .square {
+    position: relative;
+    max-width: 25.5rem;
+    height: 24rem;
+    margin-left: 130rem;
+    margin-top: -56.6rem;
+    border-radius: 2rem;
+    background-color: #e8eff2;
+  }
+
+  .tablet-keyboard {
+    display: none;
+  }
+
+  .tablet-cont {
+    max-width: 100%;
+
+    margin: 0;
+    padding: 0;
+    margin-top: 15.8rem;
+    margin-left: 16.5rem;
+  }
+
+  .tablet {
+    max-width: 25.5rem;
+    height: 48rem;
+    margin: 0;
+    background-image: url(assets/desktop/image-phone-and-keyboard.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    border-radius: 2rem;
+    background-repeat: no-repeat;
+  }
+
+  .tablet2 {
+    position: relative;
+    margin-top: -48rem;
+    margin-left: 30rem;
+    max-width: 44.5rem;
+    height: 48rem;
+
+    background-image: url(assets/desktop/image-glass-and-keyboard.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    border-radius: 2rem;
+    background-repeat: no-repeat;
+  }
+
+  .p-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: -50rem;
+    margin-left: 100rem;
+    max-width: 25.5rem;
+  }
+
+  .container1 {
+    max-width: 25.5rem;
+  }
+
+  .p-container p {
+    max-width: 25.5rem;
+    text-align: start;
+  }
+
+  .square2 {
+    display: block;
+    position: relative;
+    max-width: 25.5rem;
+    margin-top: -31rem;
+    margin-left: -12rem;
+    height: 24rem;
+    border-radius: 2rem;
+    background-color: #e8eff2;
+  }
+
+  .info-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column: 1 / 1;
+    max-width: 100% !important;
+    margin-top: 10rem;
+    padding-left: 12.5rem;
+  }
+
+  .container1 {
+    max-width: 25.5rem;
+    height: 32.3rem;
+  }
+  .container2 {
+    max-width: 25.5rem;
+    height: 32.3rem;
+    margin-left: -5rem;
+  }
+  .container3 {
+    max-width: 25.5rem;
+    height: 32.3rem;
+    margin-left: -10rem;
+  }
+  .container4 {
+    max-width: 25.5rem;
+    height: 32.3rem;
+    margin-left: -15rem;
+  }
+
+  .container1 h1,
+  .container2 h1,
+  .container3 h1,
+  .container4 h1 {
+    padding-top: 4.8rem;
+    padding-left: 3.9rem;
+    max-width: 25.5rem;
+    font-size: 2.4rem;
+    font-weight: 900;
+    line-height: 2.8rem;
+    text-align: start;
+  }
+  .container1 p,
+  .container2 p,
+  .container3 p,
+  .container4 p {
+    max-width: 25.5rem;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.6rem;
+    text-align: start;
+
+    color: #7b8bad;
+  }
+
+  .footer {
+    margin: 0;
+    padding: 0;
+    margin-top: -20rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .header-btn:hover {
+    background-color: #162542;
+  }
+
+  .header-a:hover {
+    color: #e8eff2;
+  }
+
+  .content-btn:hover {
+    background-color: #162542;
   }
 }
